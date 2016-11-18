@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Upload photo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="200" height="200" rx="2"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="200" height="200" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon切图" transform="translate(-58.000000, -721.000000)">
+            <g id="Upload-photo" transform="translate(58.000000, 721.000000)">
+                <use id="Rectangle-412" stroke-opacity="0.2" stroke="#010101" mask="url(#mask-2)" stroke-width="4" stroke-dasharray="8,6" xlink:href="#path-1"></use>
+                <g id="Group-2" transform="translate(51.000000, 59.000000)" fill-opacity="0.2" fill="#000000">
+                    <path d="M26.5,16 L26.5,16 L7.99896416,16 C4.68197992,16 2,18.6839483 2,22.0004247 L2,73.9995753 C2,77.3122746 4.68673555,80 7.99896416,80 L90.0010358,80 C93.3180201,80 96,77.3160517 96,73.9995753 L96,22.0004247 C96,18.6877254 93.3132645,16 90.0010358,16 L71.5,16 L69.9384472,16 L69.559715,14.4850713 L67.0303872,4.36775991 C66.7177909,3.11737465 65.2902289,2 64.0051562,2 L33.9948438,2 C32.7028663,2 31.2839133,3.11055806 30.9696128,4.36775991 L28.440285,14.4850713 L28.0615528,16 L26.5,16 Z M26.5,14 L26.5,14 L29.0293278,3.88268866 C29.5654153,1.73833892 31.7818508,0 33.9948438,0 L64.0051562,0 C66.2114475,0 68.4363383,1.74535306 68.9706722,3.88268866 L71.5,14 L90.0010358,14 C94.4187418,14 98,17.5840639 98,22.0004247 L98,73.9995753 C98,78.4180878 94.4251216,82 90.0010358,82 L7.99896416,82 C3.58125824,82 0,78.4159361 0,73.9995753 L0,22.0004247 C0,17.5819122 3.57487841,14 7.99896416,14 L26.5,14 Z" id="Combined-Shape"></path>
+                    <path d="M49,70 C61.1502645,70 71,60.1502645 71,48 C71,35.8497355 61.1502645,26 49,26 C36.8497355,26 27,35.8497355 27,48 C27,60.1502645 36.8497355,70 49,70 L49,70 Z M49,68 C37.954305,68 29,59.045695 29,48 C29,36.954305 37.954305,28 49,28 C60.045695,28 69,36.954305 69,48 C69,59.045695 60.045695,68 49,68 L49,68 Z" id="Oval-26-Copy"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

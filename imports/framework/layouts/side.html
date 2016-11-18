@@ -1,0 +1,30 @@
+<template name="side">
+    <div class="side">
+        <a class="side-logo"  href="/" >
+            FAMI2U
+        </a>
+        <div class="side-navis">
+            {{#each menus}}
+                {{#if children}}
+                    <div class="side-navi-item _animation">
+                        <div class="side-navi-main">{{name}}</div>
+                        <i class="fa fa-bars _animation"></i>
+                        <div class="side-navi-children ">
+                             {{#each children}}
+                                <a class="side-navi-item _animation" href="{{target}}">
+                                    <div class="side-navi-main">{{name}}</div>
+                                    <i class="fa fa-angle-right _animation"></i>
+                                </a>
+                             {{/each }}
+                         </div>
+                    </div>
+                {{else}}
+                    <a class="side-navi-item _animation" href="{{target}}">
+                        <div class="side-navi-main">{{name}}</div>
+                         <i class="fa fa-angle-right _animation"></i>
+                    </a>
+                {{/if }}
+            {{/each }}
+        </div>
+    </div>
+</template>
