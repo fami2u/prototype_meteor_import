@@ -1,0 +1,17 @@
+<template name="page">
+    <div class="header">
+        <a class="logo" href="/"> FAMI2U   </a>
+        <div class="header-right">
+            <a class="submit" href="/itvc"> 发布项目 </a>
+            <a class="status" href="/account/login"> 登陆/注册 </a>
+            <a class="link" href="/itvc"> ITVC </a>
+            <a class="link" href="/itvc"> 社区 </a>
+            <a class="link" href="/itvc"> BLOG </a>
+            <a class="link" href="/itvc"> 开发工具 </a>
+            <a class="link" href="/itvc"> 项目平台 </a>
+            <div class="clear"></div>
+        </div>
+    </div>
+    {{> Template.dynamic template=content}}
+	{{>footer }}
+</template>

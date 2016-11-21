@@ -1,0 +1,235 @@
+<template name="site">
+    <div class="index">
+        <!-- header -->
+        <div class="header _flex top_header _animation">
+            <a class="logo _animation" href="/"> FAMI<b>2</b>U   </a>
+            <div class="center _flex-1 _flex">
+                <a class="link _animation"  href="/desk"> 项目管理 </a>
+                <a class="link _animation" href="##"> 开放平台 </a>
+                <a class="link _animation" href="##"> BLOG </a>
+                <a class="link _animation" href="##"> 社区 </a>
+                <a class="link _animation" href="##"> ITVC </a>
+            </div>
+            <div class="right">
+            	{{#if currentUser}}
+            		<a class="status _animation" href="/account/logout">{{email}} <i class="fa fa-bars"></i></a>
+                {{else}}
+                	<a class="status _animation" href="/account/login"> 登陆 </a> /
+                	<a class="status _animation " href="/account/regist"> 注册 </a>
+                {{/if}}
+            </div>
+        </div>
+        <!--  slide - 1  -->
+        <div class="_flex slide banner">
+            <div class="_animation center">
+            	<h3>基于原型开发模式的</h3>
+                <h1>极速体验：30天实现产品上线</h1>
+                <h4>致力于开发流程管理、企业技术风险控制、技术生产力提高<br/>帮助创业者以更低成本更快方式验证商业模式设计</h4>
+                <div class="_flex links">
+                	<a class="link link-1 _animation animated fadeInUp" href="/">创业项目报名</a>
+                	<a class="link link-2 _animation  " href="/">预约企业咨询</a>
+                </div>
+            </div>
+        </div>
+        <!--  slide - 2  -->
+        <div class="slide baseon">
+            <h1>BASE ON </h1>
+            <h2>ITVC(IT VENTRUE CONTROLL) 技术风险管控体系</h2>
+        </div>
+        <!--  slide - 3  -->
+        <div class="_flex slide-c space features">
+            <a class="link" href="/">
+                <div class="center">基于快速原型模式</div>
+            </a>
+            <a class="link" href="/">
+                <div class="center">优化分配研发资源</div>
+            </a>
+            <a class="link" href="/">
+                <div class="center">集成优选服务方案</div>
+            </a>
+        </div>
+        <!--  slide - 4  -->
+        <div class="_flex slide-c space effect">
+            <div class="list">
+                <div class="item">
+                    <h1>团队</h1>
+                    <b>不再为找不到资深技术人员和技术合伙人而停止</b>
+                </div>
+                <div class="item">
+                    <h1>质量</h1>
+                    <b>先进的产品理念协助您打造优质的产品体验</b>
+                </div>
+                <div class="item">
+                    <h1>控制</h1>
+                    <b>更容易帮助企业清晰产品进度和方向</b>
+                </div>
+                <div class="item">
+                    <h1>安全</h1>
+                    <b>降低企业IT投入和创业的时间成本机会成本</b>
+                </div>
+            </div>
+            <div class="_flex-1 picture">
+                <div class="center"></div>
+            </div>
+        </div>
+        <!--  slide-c - 5  -->
+        <div class="slide-c space gain">
+            <div class="_flex line-1">
+                <div class="item">
+                    <h1>周期</h1>
+                    <b>更快实现产品上线运营</b>
+                </div>
+                <div class="item">
+                    <h1>产品</h1>
+                    <b>更加复合用户使用需求</b>
+                </div>
+            </div>
+            <div class="_flex  line-1">
+                <div class="item">
+                    <h1>技术</h1>
+                    <b>最先进和适合的技术选型始终处于领先位置</b>
+                </div>
+                <div class="item">
+                    <h1>融资</h1>
+                    <b>有业务有数据更容易获得则本青睐</b>
+                </div>
+                <div class="item">
+                    <h1>成本</h1>
+                    <b>自主软件研发最低成本高质量的解决方案</b>
+                </div>
+            </div>
+        </div>
+        <!--  slide-c - 6  -->
+        <div class="slide-c space platform">
+            <h1>适用产品平台</h1>
+            <div class="_flex list">
+                <div class="item"> PC网站 </div>
+                <div class="item"> 移动网站 </div>
+                <div class="item"> 微信服务／订阅号/小程序 </div>
+                <div class="item"> IOS </div>
+                <div class="item"> ANDROID </div>
+                <div class="item"> 桌面应用 </div>
+                <div class="item"> 开放服务 </div>
+                <div class="item"> 第三方对接 </div>
+            </div>
+        </div>
+        <!--  slide-c - 7  -->
+        <div class="slide-c space customer">
+            <h1>签约客户</h1>
+            <div class="_flex list">
+                <div class="item"> 管家驿站 </div>
+                <div class="item"> 牙医之家 </div>
+                <div class="item"> 3630海钓 </div>
+                <div class="item"> 云医联盟 </div>
+                <div class="item"> 玛谢利珠宝 </div>
+            </div>
+            <div class="_flex list">
+                <div class="item"> 华材网 </div>
+                <div class="item"> 悠悠品客 </div>
+                <div class="item"> 看客栈旅游网 </div>
+                <div class="item"> 看牙易 </div>
+                <div class="item"> 快创学院 </div>
+            </div>
+            <div class="_flex list">
+                <div class="item"> 北京市文创大赛 </div>
+                <div class="item"> 和空间 </div>
+                <div class="item"> 找粗粮网 </div>
+                <div class="item"> 医攻略 </div>
+                <div class="item"> ... </div>
+            </div>
+        </div>
+        <!--  slide-c - 9  -->
+        <div class="slide-c space tools">
+            <div class="_flex line">
+                <a class="item" href="/">
+                    <div class="center black">
+                        部分解决方案
+                    </div>
+                </a>
+                <a class="item" href="/">
+                    <div class="center">
+                        <h1>AliYun</h1>
+                        <h3>稳定服务的可靠保障</h3>
+                        <p>全球领先的云计算服务平台,云计算第一平台,云产品解决方案</p>
+                    </div>
+                </a>
+                <a class="item" href="/">
+                    <div class="center">
+                        <h1>Meteor</h1>
+                        <h3>最高效极速开发框架</h3>
+                        <p>跨时代的全栈开发框架,迅速地开发实时的（Real-Time）和响应式的（Reactive）应用</p>
+                    </div>
+                </a>
+            </div>
+            <div class="_flex line">
+                <a class="item" href="/">
+                    <div class="center">
+                        <h1>AI<b>CS</b></h1>
+                        <h3>最佳实践代码管理项目</h3>
+                        <p>协助团队进行早期项目搭建，缩短开发周期</p>
+                    </div>
+                </a>
+                <a class="item" href="/">
+                    <div class="center">
+                        <h1>METEOR<b>UP</b></h1>
+                        <h3>极致的项目自动化工具</h3>
+                        <p>最简单的项目部署方式，自动增扩容，应对大规模突然访问，零成本项目运维</p>
+                    </div>
+                </a>
+                <a class="item" href="/">
+                    <div class="center">
+                        <h1>BlackWater<b>＋</b></h1>
+                        <h3>信息收集和推广价值分析工具</h3>
+                        <p>通过对全网数据的分析提高运营推广的投资回报比率，提供辅助决策能力</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!--  slide-c - 10  -->
+        <div class=" slide-c space media">
+            <div class="_flex list ">
+                <div class="item _flex">
+                    <div class="thumb"></div>
+                    <a class="info _flex-1">
+                        <h1>媒体报道</h1>
+                        <b>创业八点档</b>
+                        <p>稿件内容稿件内容稿件内容稿件内容稿件内容稿件内容稿件内容稿件内容稿件内容稿件内容稿件内容稿件内容稿件内容稿件内容</p>
+                    </a>
+                </div>
+                <div class="item _flex">
+                    <div class="thumb"></div>
+                    <a class="info _flex-1">
+                        <h1>媒体报道</h1>
+                        <b>创业八点档</b>
+                        <p>稿件内容稿件内容稿件内容稿件内容稿件内容稿件内容稿件内容稿件内容稿件内容稿件内容稿件内容稿件内容稿件内容稿件内容</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--  slide-c - 11  -->
+        <div class="slide  count">
+            <div class="_flex slide-c ">
+                <div class="_flex-1 item">
+                    <div class="number">200<b>个</b></div>
+                    <h1>已提供咨询服务</h1>
+                </div>
+                <div class="_flex-1 item">
+                    <div class="number">15<b>个</b></div>
+                    <h1>已孵化创业项目</h1>
+                </div>
+                <div class="_flex-1 item">
+                    <div class="number">50<b>个</b></div>
+                    <h1>已参与团队建设</h1>
+                </div>
+            </div>
+        </div>
+        <!--  slide-c - 12  -->
+        <div class="slide-c  space invite">
+            <div class="word">
+                立即开始您的项目，为您提供基于ITVC体系的技术解决方案
+            </div>
+            <a class="link" href="/">立即发布项目</a>
+        </div>
+    </div>
+    {{>footer }}
+</template>

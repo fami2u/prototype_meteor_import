@@ -1,0 +1,41 @@
+.footer{
+	border-top: 1px solid #ddd;
+}
+.footer .warp{
+	width: 1200px;
+	margin: 0px auto;
+	padding: 30px 0;
+	position: relative;
+}
+.footer .logo{
+	font-size: 2rem;
+	font-weight: 800;
+	width: 100px;
+	text-shadow: 1px 0 2px #333;
+}
+.footer .copyright{
+	color: #999;
+	font-size: .8rem;
+}
+.footer .solgan{
+	color: #999;
+	font-size: .8rem;
+}
+.footer .backup{
+	font-size: .8rem;
+	padding-top: 50px;
+}
+.footer .info{
+	width: 300px;
+}
+.footer .title{
+	display: block;
+	line-height: 25px;
+	color: #333;
+}
+.footer .link{
+	display: block;
+	line-height: 25px;
+	color: #666;
+	font-size: .8rem;
+}

@@ -1,0 +1,392 @@
+.index{
+	
+}
+.index .header{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+	
+}
+.index .header .logo{
+	width: 140px;
+	font-size: 28px;
+	font-weight: 800;
+	padding-left: 20px;
+	color: #fff;
+	text-shadow: 0 0 1px #333;
+	
+}
+.index .header .logo b{
+	color: #0694ca;
+}
+.index .header .center{
+	align-content:flex-start;
+	padding-left: 10px;
+}
+.index .header .center a{
+	color: #eee;
+}
+.index .header .center a:hover{
+	color: #fff;
+}
+.index .header .center .link{
+	padding: 0px 10px;
+}
+.index .header .right{
+	width: 200px;
+	padding-right: 20px;
+	text-align: right;
+	color: #bbb;
+}
+.index .header .right a{
+	color: #bbb;
+}
+.index .header .right a:hover{
+	color: #fff;
+}
+
+.index .top_header{
+	background: rgba(42,42,42,0);
+}
+.index .center_header{
+	background: rgba(42,42,42,1);
+}
+.index .center_header .logo{
+	background: #0694ca;
+}
+.index .center_header .logo b{
+	color: #fff;
+}
+.index .slide {
+    width: 100%;
+    position: relative;
+}
+.index .space{
+	padding: 160px 0 0px 0;
+}
+.index .slide-c{
+	width: 1200px;
+	margin: 0px auto;
+	position: relative;
+}
+.index .banner {
+    height: 800px;
+    background-image: url(/banner2.jpg);
+    background-color: #efefef;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 5;
+
+}
+.index .banner:after{
+	content: "";
+	display: block;
+	background: rgba(0,0,0,.3);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+
+.index .banner .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 20px;
+    padding-top: 40px;
+    z-index: 20;
+    text-align: center;
+    /* text-shadow:  0 0 1px #333; */
+}
+
+
+.index .banner h1 {
+    font-size: 3.2rem;
+    line-height: 5rem;
+    color: #fff;
+    padding-bottom: 15px;
+    font-weight: 800;
+
+}
+
+.index .banner h3 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    color: #eee;
+	padding-bottom: 10px;
+}
+
+.index .banner h4 {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color: #ddd;
+    padding-bottom: 30px;
+}
+.index .banner .links{
+	justify-content:space-around;
+	width: 360px;
+	margin: 0px auto;
+}
+
+.index .banner .link{
+	
+	width: 160px;
+	line-height: 45px;
+	text-align: center;
+	text-shadow: 0;
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+.index .banner .link-1{
+	background: #0694ca;
+	color: #fff;
+	border: 1px solid #0694ca;
+}
+.index .banner .link-2{
+	color: #0694ca;
+	border: 1px solid #0694ca;
+}
+.index .banner .link:hover{
+	background: #fff;
+	color: #0694ca;
+}
+
+.index .baseon{
+	text-align: center;
+	box-shadow:  0 0 10px #999;
+	padding: 20px 0 ;
+	text-shadow: 0 0 1px #333;
+}
+.index .baseon h1{
+	font-size: 1.2rem;
+	display: block;
+	line-height: 40px;
+	width: 100%;
+	text-align: center;
+
+}
+.index .baseon h2{
+	display: block;
+	line-height: 30px;
+	width: 100%;
+	text-align: center;
+
+}
+.index .features{
+    justify-content:space-between;
+}
+.index .features .link{
+	text-align: center;
+	width: 300px;
+}
+.index .features .link .center{
+	line-height: 300px;
+	background: #121212;
+	color: #fff;
+	text-align: center;
+	line-height: 300px;
+}
+
+.index .effect .list{
+	width: 450px;
+	overflow: hidden;
+}
+.index .effect .item{
+	margin-bottom: 20px;
+	padding: 0 0 30px 0;
+}
+.index .effect .item h1{
+	font-size: 1.2rem;
+	line-height: 30px;
+}
+.index .effect .item b{
+	line-height: 20px;
+	color: #999;
+}
+.index .effect .picture{
+	height: 500px;
+	position: relative;
+}
+.index .effect .center{
+	width: 400px;
+	height: 400px;
+	background: #121212;
+	position: absolute;
+    top: 0%;
+    right: 0%;
+
+}
+.index .gain .line-1{
+	 justify-content:space-around;
+}
+.index .gain .line-2{
+	 justify-content:space-between;
+}
+.index .gain .item{
+	width: 300px;
+	height: 200px;
+	text-align: center;
+	padding-top: 50px;
+}
+.index .gain .item h1{
+	font-size: 1.4rem;
+	line-height: 65px
+}
+.index .gain .item b{
+	color: #999;
+}
+.index .platform h1{
+	display: block;
+	width: 100%;
+	text-align: center;
+	line-height: 50px;
+	font-size: 1.4rem;
+}
+.index .platform .list{
+	justify-content:space-between;
+	flex-wrap: wrap;
+}
+.index .platform .list .item{
+	width: 250px;
+	line-height: 250px;
+	margin-bottom: 20px;
+	background: #121212;
+	text-align: center;
+	color:#fff;
+}
+
+.index .customer h1{
+	display: block;
+	width: 100%;
+	text-align: center;
+	line-height: 50px;
+	font-size: 1.4rem;
+}
+.index .customer .list{
+	justify-content:space-between;
+	padding-top: 30px;
+}
+.index .customer .list .item{
+	width: 150px;
+	line-height: 150px;
+	margin-bottom: 20px;
+	background: #121212;
+	text-align: center;
+	color:#fff;
+	border-radius: 50%;
+	box-shadow: 1px 0 2px #333;
+}
+.index .tools .line{
+	justify-content:space-between;
+
+}
+.index .tools .black{
+	background: #121212;
+	color: #fff;
+	text-align: center;
+	line-height: 160px;
+}
+.index .tools .item{
+	width: 330px;
+	height: 200px;
+}
+.index .tools .item h1{
+	font-size: 1.4rem;
+	line-height: 35px;
+	font-weight: 800;
+}
+.index .tools .item h3{
+	color: #666;
+}
+.index .tools .item p{
+	color: #999;
+}
+.index .tools .item h1 b{
+	color: #bd3523;
+}
+.index .media .list{
+	justify-content:space-between;
+}
+.index .media .item{
+	width: 46%;
+}
+.index .media .thumb{
+	width: 250px;
+	height: 200px;
+	background: #121212;
+}
+.index .media .info {
+	padding-left: 20px;
+	padding-right: 20px;
+	display: block;
+}
+.index .media .info h1{
+	font-size: 1.4rem;
+	font-weight: 800;
+	line-height: 35px;
+}
+.index .media .info b{
+	line-height: 20px;
+	color: #999;
+	font-size: .8rem;
+}
+.index .media .info p{
+	padding-top: 5px;
+}
+.index .count{
+	background: #121212;
+	margin-top: 30px;
+	padding: 50px 0px;
+	
+}
+.index .count .item{
+	text-align: center;
+}
+.index .count .number{
+	color: #fff;
+	font-size: 4rem;
+	font-weight: 800;
+}
+.index .count .number b{
+	color: #999;
+	font-size: 1rem;
+	font-weight: 800;
+}
+.index .count h1{
+	color: #999;
+	font-size: 1rem;
+}
+.index .invite{
+	height: 200px;
+}
+.index .invite .word{
+	padding-right: 20px;
+	position: absolute;
+	top: 100px;
+	left: 320px;
+	width: 550px;
+}
+
+.index .invite .link{
+	display: block;
+	width: 160px;
+	text-align: center;
+	position: absolute;
+	top: 85px;
+	left: 730px;
+	border:1px solid #bd3523;
+	color: #bd3523;
+	line-height: 50px;
+
+}

@@ -1,0 +1,21 @@
+.page{
+
+}
+.block{
+	background: #fff;
+    overflow: hidden;
+    position: relative;
+    border-radius: 6px;
+    padding: 16px;
+}
+.block h1{
+	border-bottom: 1px solid #eee;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 800;
+
+}
+.table{
+	background: #fff;
+	padding-top: 10px;
+}
